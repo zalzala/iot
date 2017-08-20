@@ -18,8 +18,8 @@ import requests
 
 DEBUG = 1
 # Setup the pins we are connect to
-RCpin = 24 #Common pin of LDR and Capacitor
-DHTpin = 2 #Temperature Pin
+RCpin = 23 #Common pin of LDR and Capacitor
+DHTpin = 24 #Temperature Pin
 
 #Setup our API and delay
 myAPI = "TCWKVR9TOM1U150D" #get from thingspeak
